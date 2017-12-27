@@ -1,0 +1,20 @@
+{
+  "name": "mongodb-study",
+  "version": "1.0.0",
+  "description": "mongodb学习，基于node的",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pizitai/mongodb-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pizitai/mongodb-study/issues"
+  },
+  "homepage": "https://github.com/pizitai/mongodb-study#readme"
+}
