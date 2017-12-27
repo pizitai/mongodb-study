@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pizitai/mongodb-study/issues"
   },
-  "homepage": "https://github.com/pizitai/mongodb-study#readme"
+  "homepage": "https://github.com/pizitai/mongodb-study#readme",
+  "dependencies": {
+    "mongoose": "^4.13.7"
+  }
 }
