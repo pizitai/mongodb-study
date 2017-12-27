@@ -10,3 +10,4 @@ mongoose.connect('mongodb://localhost:20300/test',{useMongoClient:true}).then(
         console.log("数据库连接失败")
     }
 );
+module.exports = mongoose;
