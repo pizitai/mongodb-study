@@ -1,10 +1,9 @@
 # mongodb-study
 浮点数运算
 
-- github地址：https://github.com/MikeMcl/decimal.js、
-- 教程地址：http://www.cnblogs.com/zhongweiv/p/nodejs_decimal.html
 
+- test.js的参考文章：https://www.cnblogs.com/zqzjs/p/5487348.html
 
 branch | remarks
 ---|---
-decimal | 浮点数运算
+data-collection | 数据采集
