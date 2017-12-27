@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/pizitai/mongodb-study#readme",
   "dependencies": {
-    "decimal.js": "^9.0.1",
+    "decimal.js": "^9.0.1"
   }
 }
