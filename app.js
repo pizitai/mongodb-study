@@ -6,6 +6,7 @@
 var request = require('request'),
     cheerio = require('cheerio'),
     fs = require('fs'),
+    Proxy = require('./proxylist.js')  //引入代理
     URL_36KR = 'http://36kr.com/'; //36氪 
 
 /* 开启数据采集器 */
@@ -18,6 +19,7 @@ function dataRequest(dataUrl) {
     request({
         url: dataUrl,
         method: 'GET',
+        proxy: Proxy.GetProxy(),
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36'
         }

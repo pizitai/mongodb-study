@@ -6,4 +6,6 @@
 
 branch | remarks
 ---|---
-data-collection | 数据采集
+data-collection-1_1 | 数据采集
+proxylist | 代理见proxylist.js
+https | https请求见app2.js
