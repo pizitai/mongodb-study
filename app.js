@@ -1,12 +1,12 @@
-var mongoose = require('mongoose')
-mongoose.Promise = global.Promise;
+var Promise = require('bluebird');
+var fs = Promise.promisifyAll(require('fs'));
 
-
-mongoose.connect('mongodb://localhost:20300/test',{useMongoClient:true}).then(
-    () => {
-        console.log("数据库连接成功")
-    },
-    err => {
-        console.log("数据库连接失败")
-    }
-);
+function getPost(file) {
+    return fs.readFileAsync(file, 'utf8').then(function (content) {
+        return {
+            excerpt: content.substr(0, 100)
+        }
+    });
+}
+let aa = getPost('./README.md')
+console.log(aa)
