@@ -12,3 +12,4 @@ test11 | 数据库常用操作
 schedule | 定时任务
 decimal | 浮点数运算
 data-collection | 数据采集
+data-collection-1_1 | 数据采集代理proxy
